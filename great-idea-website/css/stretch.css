@@ -166,7 +166,14 @@ body {
 }
 
 .container {
-  background-color: red;
+  position: fixed;
+  top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 9999;
+  width: 75%;
+  height: 40px;
+  background-color: #00a087;
 }
 
 .navigation {
@@ -176,13 +183,18 @@ body {
 }
 
 .navigation a {
-  color: grey;
+  color: black;
   text-decoration: none;
   float: left;
   display: block;
   /* width: 75%; */
   text-align: center;
   padding: 14px 14px;
+}
+
+/* Add on */
+.navigation a:hover {
+  color: white;
 }
 
 .navigation .logo {
