@@ -150,9 +150,11 @@ h5 {
 }
 
 /* Your code starts here! */
-/* * {
+* {
   box-sizing: border-box;
-} */
+  color: #8f8e8b;
+  font-weight: bold;
+}
 
 html,
 body {
@@ -161,24 +163,32 @@ body {
   margin-right: 2%;
   margin-left: 1%; */
   margin: 25px auto;
-  width: 876px;
+  width: 976px;
   /* height: auto; */
 }
 
+body {
+  background-image: url("http://i.stack.imgur.com/spmUM.gif");
+  /* background-repeat: no-repeat; */
+}
+
 .container {
-  position: fixed;
+  padding: 0px 0px 50px 0px;
   top: 0;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
   z-index: 9999;
-  width: 75%;
+  width: 47%;
   height: 40px;
-  background-color: #00a087;
+  margin-bottom: 50px;
+  overflow: hidden;
+  background-color: darkgrey;
+  position: fixed;
 }
 
 .navigation {
   width: auto;
-  margin-bottom: 80px;
+  /* margin-bottom: 80px; */
   overflow: hidden;
 }
 
@@ -190,6 +200,8 @@ body {
   /* width: 75%; */
   text-align: center;
   padding: 14px 14px;
+  font-family: "Aclonica";
+  font-size: 18px;
 }
 
 /* Add on */
@@ -198,8 +210,12 @@ body {
 }
 
 .navigation .logo {
-  padding-left: 80px;
+  padding-left: 200px;
   /* text-align: right; */
+}
+
+.section_zero {
+  margin-top: 20px;
 }
 
 .header {
@@ -232,7 +248,7 @@ body {
 }
 
 .border_one {
-  border-top: 2px solid black;
+  border-top: 5px dashed yellow;
   width: auto;
   margin: 75px 0px 25px 0px;
 }
@@ -255,6 +271,8 @@ body {
 }
 
 #middle-img {
+  /* box-sizing: border-box; */
+  /* display: inline; */
   padding: 40px 0;
 }
 
